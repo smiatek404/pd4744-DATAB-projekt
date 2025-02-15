@@ -9,7 +9,10 @@ HAVING num_patients > 30;
 ```
 
 **Wynik**
-| test\_type |	num\_patients | | --- | --- | | WGS | 45 | | --- | --- | | SNP | | 60 |
+| test_type | num_patients |
+|-----------|--------------|
+| WGS       | 45           |
+| SNP Array | 60           |
 
 ## Zapytanie 2: nazwy testów i obliczoną średnią liczbę wariantów dla każdego testu.
 **Zapytanie:**
@@ -21,7 +24,10 @@ GROUP BY t.test_type;
 ```
 
 **Wynik**
-| test\_type |	avg\_variants | | --- | --- | | WGS | 5.3 | | --- | --- | | SNP | | 4.1 |
+| test_type | avg_variants |
+|-----------|--------------|
+| WGS       | 5.3          |
+| SNP Array | 4.1          |
 
 
 
